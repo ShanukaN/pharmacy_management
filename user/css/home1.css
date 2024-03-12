@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.search {
+  height: 40px;
+  width: 80%;
+  margin-right: -35px;
+  border-radius: 60px;
+  outline: none;
+  border: 2px solid rgb(24, 153, 7);
+}
+.btn0 {
+  height: 40px;
+  width: 40%;
+  outline: none;
+  border: none;
+  background: rgb(24, 153, 7);
+  color: white;
+  font-weight: 700px;
+  border-radius: 60px;
+}
+.main {
+  background: url(../image/20.jpg) no-repeat;
+  background-size: cover;
+  height: 80vh;
+  background-position: 50% 50%;
+  width: 100%;
+}
+.main h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: 'Yuji Mai', serif;
+}
+.btn1 {
+  height: 45px;
+  width: 35%;
+  border: none;
+  outline: none;
+  background-color: rgb(4, 2, 168);
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+}
+.btn2 {
+  height: 45px;
+  width: 35%;
+  border: none;
+  outline: none;
+  background-color: rgb(12, 128, 41);
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+}
+.btn2:hover {
+  background-color: red;
+  transition: 0.5s;
+}
+.new:hover {
+  -webkit-box-shadow: -2px -1px 4px 25px rgb(0, 0, 0, 0.75);
+  box-shadow: -2px -1px 25px -4px rgb(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px -1px 25px -4px rgb(0, 0, 0, 0.75);
+}
+.about {
+  background: url(../image/6.jpg) no-repeat;
+  background-size: cover;
+  height: 70vh;
+  background-position: 50% 50%;
+  width: 100%;
+}
+.btn3 {
+  height: 45px;
+  width: 35%;
+  border: none;
+  outline: none;
+  background-color: rgb(0, 201, 44);
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+}
+.btn3:hover {
+  background-color: rgb(0, 0, 0);
+  transition: 0.5s;
+}
+.news {
+  background-color: black;
+  color: white;
+  height: 300px;
+}
+.news:p {
+  margin: 0;
+}
+.fab {
+  font-size: 2.5rem;
+  cursor: pointer;
+  padding-right: 5px;
+}

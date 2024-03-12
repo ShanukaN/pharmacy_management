@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.section {
+  width: 100%;
+}
+.section .container {
+  width: 80%;
+  display: block;
+  margin: 0px auto;
+  padding: 50px 0px;
+}
+.container .title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.container .title h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+  color: #0e92bb;
+  font-family: 'Yuji Mai', serif;
+}
+.container .title h1::after {
+  content: '';
+  height: 5px;
+  width: 200px;
+  background-color: #000000;
+  border-radius: 25px;
+  display: block;
+  margin: auto;
+}
+.content {
+  float: left;
+  width: 55%;
+}
+.image-section {
+  float: right;
+  width: 40%;
+}
+.image-section img {
+  height: auto;
+  width: 100%;
+}
+.content .article p {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: black;
+  text-align: justify;
+}
+.container .social {
+  width: 100%;
+  clear: both;
+  margin: 50px;
+  text-align: center;
+  display: inline-block;
+}
+.container .social i {
+  color: rgb(10, 46, 126);
+  font-size: 40px;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  line-height: 45px;
+  text-align: center;
+  margin: 0px 5px;
+}
+.container .social i:hover {
+  color: #fff;
+  background-color: #941e71;
+  transition: 1e ease;
+  transform: rotate(360deg);
+}
+@media screen and (max-width: 768px) {
+  .section .container {
+    width: 80%;
+    display: block;
+    margin: auto;
+  }
+  .content {
+    float: none;
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .image-section {
+    float: none;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .image-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  .container .title h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .content .article p {
+    text-align: justify;
+    font-size: 15px;
+  }
+  .container .social i {
+    color: rgb(10, 46, 126);
+    font-size: 40px;
+    border-radius: 50%;
+    line-height: 50%;
+    text-align: center;
+    margin: 0px 5px;
+  }
+}

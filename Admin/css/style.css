@@ -1,0 +1,124 @@
+#body1 {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.n {
+  padding: 12px 20px;
+  margin-left: 100px;
+  margin-right: 50px;
+
+  border-radius: 4px;
+  box-shadow: 3px 3px 10px 1px #888888;
+
+  background-color: white;
+}
+.m {
+  padding: 20px 20px;
+  margin-left: 100px;
+  margin-right: 50px;
+
+  border-radius: 4px;
+  box-shadow: 3px 3px 10px 1px #888888;
+
+  background-color: white;
+}
+.m label {
+  text-align: center;
+}
+
+.s {
+  border: 0px solid;
+  margin: 10px;
+  padding: 20px 0px 20px 0px;
+}
+
+.ai {
+  background-color: rgb(69, 100, 201);
+  text-align: center;
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px 0px 5px 0px;
+  margin-bottom: 4px;
+}
+
+.outstock {
+  background-color: rgb(170, 4, 4);
+  text-align: center;
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px 0px 5px 0px;
+  margin-bottom: 4px;
+}
+
+.instock {
+  background-color: rgb(6, 155, 18);
+  text-align: center;
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px 0px 5px 0px;
+  margin-bottom: 4px;
+}
+
+.b {
+  padding: 12px 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+  border-radius: 4px;
+
+  background-color: white;
+}
+
+.editmodal1 {
+  border: 0px solid;
+  margin: 0px;
+  padding: 20px 0px 20px 0px;
+}
+
+.t {
+  border-radius: 4px;
+  box-shadow: 3px 3px 10px 1px #888888;
+  background-color: white;
+  padding: 20px 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.dash {
+  border-radius: 4px;
+  box-shadow: 3px 3px 10px 1px #888888;
+  background-color: white;
+  padding: 20px 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  z-index: 10;
+  opacity: 0.7;
+}
+.loader {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 10px solid #333;
+  position: relative;
+  margin: 0 auto;
+  top: 30%;
+  animation: loader 2s linear infinite;
+}
+
+.table1 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+k {
+ margin: 50px 50px;
+}
